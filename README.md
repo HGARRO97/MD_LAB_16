@@ -15,7 +15,6 @@ Laboratorio_16_Aplicaciones_ML/
 │ ├── 01_diagnostico/ # Reportes y gráficos del análisis exploratorio
 │ ├── 02_preparacion/ # Tablas HTML y gráficos de transformación, IV, etc.
 │ ├── 03_modelado/ # Resultados de evaluación y ajustes
-│ ├── 04_evaluacion/ # Métricas finales del modelo en test
 │
 ├── reports/ # Presentaciones teóricas
 │
@@ -28,7 +27,6 @@ Laboratorio_16_Aplicaciones_ML/
 │ ├── 01_Analisis_exploratorio.ipynb
 │ ├── 02_Preparacion_datos.ipynb
 │ ├── 03_Modelado_ensamblaje.ipynb
-│ ├── 04_Evaluacion.ipynb
 │
 ├── requirements.txt
 └── README.md
@@ -63,10 +61,6 @@ Predecir si una persona gana más de $50K/año utilizando atributos demográfico
 - Modelos entrenados: KNN, SVM, Regresión Logística, Árbol, Random Forest.
 - Evaluación con `GridSearchCV` y `RandomizedSearchCV`.
 - Métrica objetivo: `accuracy`.
-
-### 4. Evaluación (`04_Evaluacion.ipynb`)
-- Evaluación en test del mejor modelo.
-- Reporte de accuracy, matriz de confusión, F1-score.
 
 ---
 
